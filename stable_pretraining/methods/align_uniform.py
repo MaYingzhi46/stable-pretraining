@@ -1,7 +1,8 @@
 """Alignment and Uniformity self-supervised learning.
 
-Wang and Isola. "Understanding the Behaviour of Contrastive Loss."
-ICML 2020. https://arxiv.org/abs/2005.10242
+Wang and Isola. "Understanding Contrastive Representation Learning through
+Alignment and Uniformity on the Hypersphere." ICML 2020.
+https://arxiv.org/abs/2005.10242
 """
 
 from dataclasses import dataclass

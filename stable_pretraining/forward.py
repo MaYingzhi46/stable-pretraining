@@ -475,8 +475,8 @@ def align_uniform(self, batch: dict[str, Any], stage: str) -> dict[str, torch.Te
         included when present in the input.
 
     Note:
-        Introduced by Wang and Isola, "Understanding the Behaviour of
-        Contrastive Loss" (ICML 2020).
+        Introduced by Wang and Isola, "Understanding Contrastive Representation
+        Learning through Alignment and Uniformity on the Hypersphere" (ICML 2020).
     """
     out = {}
     views = _get_views_list(batch)
